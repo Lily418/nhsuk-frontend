@@ -1,14 +1,15 @@
 # NHS.UK frontend Changelog
 
-## 2.2.1 - Unreleased
+## 2.3.0 - Unreleased
+
+:new: **New features**
+
+- Secondary text colour utility class - a new utility class to be able to use the secondary text colour within elements (`$nhsuk-secondary-text-color` - `#425563`) You can find the HTML code for secondary text colour utility class in the [Utilities section in the README](https://github.com/nhsuk/nhsuk-frontend/blob/master/packages/core#secondary-text-colour) ([Issue 465](https://github.com/nhsuk/nhsuk-frontend/issues/465))
 
 :wrench: **Fixes**
 
 - Open Graph image and meta data - use the latest Open Graph image and meta data from the NHS website. You can find this asset in the `packages/assets/logos` directory and the recommended meta data for Open Graph cards in the [Installing using compiled files - HTML template](https://github.com/nhsuk/nhsuk-frontend/blob/master/docs/installation/installing-compiled.md#html-template)
 
-- Update dependencies to their latest versions
-- Updated backstopjs package to 4.1.9 (3.9.13 no longer works)
-- 'Label with bold text' backstop test now uses the correct url
 
 ## 2.2.0 - 24th June 2019
 
